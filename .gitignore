@@ -1,0 +1,58 @@
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Ignore dataset folders
+dataset/
+matched_images/
+
+# Ignore dlib directory (external library)
+dlib/
+
+# Ignore ML model files
+*.dat
+*.model
+*.pb
+*.pt
+*.pth
+*.h5
+
+# Ignore pickle files (face embeddings)
+*.pkl
+
+# Python-related files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store 
